@@ -1,0 +1,46 @@
+.timer-block{
+	display: block;
+	align-items: center;
+}
+
+.timer-button{
+	background-color:#44c767;
+    border-radius:28px;
+    border:1px solid #18ab29;
+    padding:16px 16px;
+    cursor:pointer;
+    margin: 30px 30px;
+}
+
+
+.timer-monitor{
+	font-size: 96px;
+	display: block;
+	text-align: center;
+}
+
+#content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: #eaeaea;
+}
