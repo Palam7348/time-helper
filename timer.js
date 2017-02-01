@@ -18,11 +18,12 @@ var Timer = React.createClass({
                     this.state.seconds -= 60;
                     this.state.minutes += 1;
                 }
-                if (this.state.minutes == 60){
+            if (this.state.minutes == 60){
                     this.state.minutes -= 60;
                     this.state.hours += 1;
                 }
-		}
+			}
+		},
 
 	componentDidMount() {
 		this.timerId = setInterval(this.tick, 1000);
